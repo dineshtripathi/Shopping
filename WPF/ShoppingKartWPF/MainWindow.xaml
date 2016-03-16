@@ -1,0 +1,89 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Classic" 
+	    xmlns:MVVM="clr-namespace:ShoppingKartWPF.MVVM" x:Class="ShoppingKartWPF.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+	<Grid>
+		<Canvas>
+			<DataGrid Canvas.Left="5" Canvas.Top="153" Width="505" RenderTransformOrigin="0.5,0.5" Height="147" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" IsSynchronizedWithCurrentItem="True" SelectionChanged="DataGrid_SelectionChanged">
+				<DataGrid.Resources>
+					<Style x:Key="ColumnHeaderGripperStyle" TargetType="{x:Type Thumb}">
+						<Setter Property="Width" Value="8"/>
+						<Setter Property="Background" Value="Transparent"/>
+						<Setter Property="Cursor" Value="SizeWE"/>
+						<Setter Property="Template">
+							<Setter.Value>
+								<ControlTemplate TargetType="{x:Type Thumb}">
+									<Border Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}"/>
+								</ControlTemplate>
+							</Setter.Value>
+						</Setter>
+					</Style>
+					<Style x:Key="DataGridColumnHeaderStyle1" TargetType="{x:Type DataGridColumnHeader}">
+						<Setter Property="VerticalContentAlignment" Value="Center"/>
+						<Setter Property="Template">
+							<Setter.Value>
+								<ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+									<Grid>
+										<Themes:DataGridHeaderBorder BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" IsClickable="{TemplateBinding CanUserSort}" IsPressed="{TemplateBinding IsPressed}" IsHovered="{TemplateBinding IsMouseOver}" Padding="{TemplateBinding Padding}" SortDirection="{TemplateBinding SortDirection}" SeparatorBrush="{TemplateBinding SeparatorBrush}" SeparatorVisibility="{TemplateBinding SeparatorVisibility}">
+											<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+										</Themes:DataGridHeaderBorder>
+										<Thumb x:Name="PART_LeftHeaderGripper" HorizontalAlignment="Left" Style="{StaticResource ColumnHeaderGripperStyle}"/>
+										<Thumb x:Name="PART_RightHeaderGripper" HorizontalAlignment="Right" Style="{StaticResource ColumnHeaderGripperStyle}"/>
+										<Grid HorizontalAlignment="Left" Height="41" Margin="34,-125,0,0" VerticalAlignment="Top" Width="225"/>
+									</Grid>
+								</ControlTemplate>
+							</Setter.Value>
+						</Setter>
+					</Style>
+				</DataGrid.Resources>
+				<DataGrid.DataContext>
+					<MVVM:NotifyBindingChange/>
+				</DataGrid.DataContext>
+				<DataGrid.Columns>
+					<DataGridTextColumn/>
+					<DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}"/>
+					<DataGridCheckBoxColumn Binding="{Binding ElementName=button, FallbackValue=2, Mode=OneWay, NotifyOnTargetUpdated=True, NotifyOnSourceUpdated=True, StringFormat=\{0:M\}, TargetNullValue=1}" ClipboardContentBinding="{x:Null}"/>
+				</DataGrid.Columns>
+				<DataGrid.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform Angle="0.021"/>
+						<TranslateTransform/>
+					</TransformGroup>
+				</DataGrid.RenderTransform>
+				<Button x:Name="button"/>
+				<Button>
+					<Button.Background>
+						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+							<GradientStop Color="Black" Offset="0"/>
+							<GradientStop Color="White" Offset="1"/>
+						</LinearGradientBrush>
+					</Button.Background>
+				</Button>
+				<Separator/>
+				<Button ClickMode="Press" IsEnabled="False">
+					<Button.DataContext>
+						<MVVM:NotifyBindingChange/>
+					</Button.DataContext>
+				</Button>
+				<ComboBoxItem/>
+			</DataGrid>
+			<TreeView Height="75" Canvas.Top="24" Width="68" Canvas.Left="22"/>
+			<Button x:Name="OnClick" Content="Button" Canvas.Left="442" Canvas.Top="10" Width="75" IsCancel="True" IsDefault="True" ClickMode="Press" Click="OnClickButton">
+				<Button.DataContext>
+					<MVVM:GenerateGridCommand/>
+				</Button.DataContext>
+			</Button>
+			<Button Content="Button" Canvas.Left="442" Canvas.Top="38" Width="75" >
+				<Button.DataContext>
+					<MVVM:GenerateGridCommand/>
+				</Button.DataContext>
+			</Button>
+			<TreeView Height="75" Canvas.Left="150" Canvas.Top="24" Width="65"/>
+		</Canvas>
+
+	</Grid>
+</Window>

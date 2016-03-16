@@ -1,0 +1,16 @@
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Poco\bin\Debug\ShoppingKart.Poco.dll
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Poco\bin\Debug\ShoppingKart.Poco.pdb
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Poco\obj\Debug\ShoppingKart.Poco.dll
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Poco\obj\Debug\ShoppingKart.Poco.pdb
+C:\Downloads\ShoppingKart2\ShoppingKart2\ShoppingKart.Poco\bin\Debug\ShoppingKart.Poco.dll
+C:\Downloads\ShoppingKart2\ShoppingKart2\ShoppingKart.Poco\bin\Debug\ShoppingKart.Poco.pdb
+C:\Downloads\ShoppingKart2\ShoppingKart2\ShoppingKart.Poco\obj\Debug\ShoppingKart.Poco.dll
+C:\Downloads\ShoppingKart2\ShoppingKart2\ShoppingKart.Poco\obj\Debug\ShoppingKart.Poco.pdb
+C:\Downloads\ShoppingKart2\ShoppingKart\ShoppingKart.Poco\bin\Debug\ShoppingKart.Poco.dll
+C:\Downloads\ShoppingKart2\ShoppingKart\ShoppingKart.Poco\bin\Debug\ShoppingKart.Poco.pdb
+C:\Downloads\ShoppingKart2\ShoppingKart\ShoppingKart.Poco\obj\Debug\ShoppingKart.Poco.dll
+C:\Downloads\ShoppingKart2\ShoppingKart\ShoppingKart.Poco\obj\Debug\ShoppingKart.Poco.pdb
+C:\Users\dtripathi\Repository\ShoppingKart.Poco\bin\Debug\ShoppingKart.Poco.dll
+C:\Users\dtripathi\Repository\ShoppingKart.Poco\bin\Debug\ShoppingKart.Poco.pdb
+C:\Users\dtripathi\Repository\ShoppingKart.Poco\obj\Debug\ShoppingKart.Poco.dll
+C:\Users\dtripathi\Repository\ShoppingKart.Poco\obj\Debug\ShoppingKart.Poco.pdb

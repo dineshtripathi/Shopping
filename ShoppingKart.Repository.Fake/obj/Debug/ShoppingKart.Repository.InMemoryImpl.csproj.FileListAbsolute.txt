@@ -1,0 +1,9 @@
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Repository.InMemory\bin\Debug\ShoppingKart.Repository.InMemory.dll
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Repository.InMemory\bin\Debug\ShoppingKart.Repository.InMemory.pdb
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Repository.InMemory\bin\Debug\Moq.dll
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Repository.InMemory\bin\Debug\ShoppingKart.Repository.Interface.dll
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Repository.InMemory\bin\Debug\ShoppingKart.Repository.Interface.pdb
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Repository.InMemory\bin\Debug\Moq.xml
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Repository.InMemory\obj\Debug\ShoppingKart.Repository.InMemoryImpl.csprojResolveAssemblyReference.cache
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Repository.InMemory\obj\Debug\ShoppingKart.Repository.InMemory.dll
+C:\Dev\ShoppingKart\ShoppingKart\ShoppingKart.Repository.InMemory\obj\Debug\ShoppingKart.Repository.InMemory.pdb

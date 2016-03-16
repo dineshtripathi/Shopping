@@ -1,0 +1,8 @@
+C:\Users\dtripathi\Repository\WPF\WPFMVVM-StarterCode-master\ZzaDashboard\Zza.Data\bin\Debug\Zza.Data.dll.config
+C:\Users\dtripathi\Repository\WPF\WPFMVVM-StarterCode-master\ZzaDashboard\Zza.Data\bin\Debug\Zza.Data.dll
+C:\Users\dtripathi\Repository\WPF\WPFMVVM-StarterCode-master\ZzaDashboard\Zza.Data\bin\Debug\Zza.Data.pdb
+C:\Users\dtripathi\Repository\WPF\WPFMVVM-StarterCode-master\ZzaDashboard\Zza.Data\bin\Debug\EntityFramework.dll
+C:\Users\dtripathi\Repository\WPF\WPFMVVM-StarterCode-master\ZzaDashboard\Zza.Data\bin\Debug\EntityFramework.xml
+C:\Users\dtripathi\Repository\WPF\WPFMVVM-StarterCode-master\ZzaDashboard\Zza.Data\obj\Debug\Zza.Data.dll
+C:\Users\dtripathi\Repository\WPF\WPFMVVM-StarterCode-master\ZzaDashboard\Zza.Data\obj\Debug\Zza.Data.pdb
+C:\Users\dtripathi\Repository\WPF\WPFMVVM-StarterCode-master\ZzaDashboard\Zza.Data\obj\Debug\Zza.Data.csprojResolveAssemblyReference.cache
