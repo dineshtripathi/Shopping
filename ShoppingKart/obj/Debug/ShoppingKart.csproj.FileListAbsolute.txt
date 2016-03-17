@@ -93,3 +93,6 @@ C:\Users\dtripathi\Repository\ShoppingKart\obj\Debug\ShoppingKart.csprojResolveA
 C:\GitHubRepository\Repository\ShoppingKart\bin\Debug\ShoppingKart.exe.config
 C:\GitHubRepository\Repository\ShoppingKart\obj\Debug\ShoppingKart.exe
 C:\GitHubRepository\Repository\ShoppingKart\obj\Debug\ShoppingKart.pdb
+C:\GitHubRepository\Repository\Shopping\ShoppingKart\bin\Debug\ShoppingKart.exe.config
+C:\GitHubRepository\Repository\Shopping\ShoppingKart\obj\Debug\ShoppingKart.exe
+C:\GitHubRepository\Repository\Shopping\ShoppingKart\obj\Debug\ShoppingKart.pdb
