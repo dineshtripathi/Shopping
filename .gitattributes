@@ -3,7 +3,7 @@
 
 # Custom for Visual Studio
 *.cs     diff=csharp
-
+*.rb linguist-language=csharp
 # Standard to msysgit
 *.cs     diff=csharp
 *.doc	 diff=astextplain
